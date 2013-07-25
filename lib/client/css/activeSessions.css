@@ -1,0 +1,28 @@
+.active_sessions_box {
+	position:fixed;
+	right:0;
+	bottom:0;
+	width:250px;
+}
+
+.active_sessions_box_close  {
+	height: 30px;
+	overflow:hidden;
+}
+
+.active_sessions_box_open {
+	height: 300px;
+	overflow:auto;
+}
+
+.active_sessions_box_switch {
+	display:inline-block;
+	width:20px;
+	height:30px;
+	cursor:pointer;
+	text-align:center;
+}
+
+.active_sessions_box_notice {
+	min-height:30px;
+}

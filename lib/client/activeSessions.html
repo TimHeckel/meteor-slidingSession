@@ -1,0 +1,13 @@
+<template name="active_sessions">
+	{{#if canUserSeeActiveSessions }}
+		<div class="active_sessions_box active_sessions_box_close">
+			<span class="active_sessions_box_switch" data-toggle-status="close">&#9650;</span>
+			<span class="active_sessions_box_notice">{{{notice}}}</span>
+			{{{ displayActiveSessionStart }}}
+				{{#each user}}
+					{{{ displayActiveSession this }}}
+				{{/each}}
+			{{{ displayActiveSessionEnd }}}
+		</div>
+	{{/if}}
+</template>

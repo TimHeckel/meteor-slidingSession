@@ -1,0 +1,11 @@
+{
+    "name": "slidingSession",
+    "description": "Sliding user session management for Meteor.",
+    "homepage": "https://github.com/TimHeckel/meteor-slidingSession",
+    "author": "Tim Heckel  (http://timheckel.com)",
+    "version": "0.0.1",
+    "git": "https://github.com/TimHeckel/meteor-slidingSession.git",
+ 	"packages": {
+    	"router": "0.5.3"
+  	}
+}
