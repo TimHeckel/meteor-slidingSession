@@ -9,9 +9,7 @@ More details will be forthcoming, but in simplest terms:
 
 ###Configure
 
-Meteor Paginator provides templates and callbacks to easily page your subscribed data, provided you follow the below conventions.
-
-####Put this code in `/lib` at your application's root (so it is accessible by both client and server)
+Put this code in `/lib` at your application's root (so it is accessible by both client and server)
 
     Meteor.startup(function() {
       Meteor.slidingSession = { 
