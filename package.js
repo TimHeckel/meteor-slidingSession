@@ -11,4 +11,8 @@ Package.on_use(function (api) {
     api.add_files('lib/client/css/activeSessions.css', 'client');
     api.add_files('lib/server/activeSessions.js', 'server');
 
+    if (api.export) {
+    	api.export("ActiveSessions")
+    }
+
 });
